@@ -1,0 +1,46 @@
+# Dependency directories
+node_modules/
+jspm_packages/ # if using jspm
+
+# Optional npm cache directory
+.npm/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directory for compiled output
+dist/
+build/
+
+# Local environment variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Editor directories and files
+.vscode/ # VSCode settings
+.idea/ # WebStorm/IntelliJ settings
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Misc
+.cache/
+tmp/
