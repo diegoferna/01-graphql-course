@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon -r sucrase/register src/index.js"
+    "dev": "nodemon -r sucrase/register src/index.js",
+    "json:server": "json-server --watch db.json --port 3001"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,8 @@
   "homepage": "https://github.com/diegoferna/01-graphql-course#readme",
   "dependencies": {
     "apollo-server": "^3.13.0",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "json-server": "^1.0.0-beta.3"
   },
   "devDependencies": {
     "eslint": "^9.35.0",
